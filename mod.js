@@ -13,9 +13,7 @@ const html =
       <script type="module" src="${clientBundle}"></script>
     </head>
     <body>
-      <div id="root">
-        ${content}
-      </div>
+      <div id="root">${content}</div>
     </body>
   </html>`;
 

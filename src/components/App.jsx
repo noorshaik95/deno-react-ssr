@@ -12,12 +12,11 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<button onClick={() => {
-this.setState({counter: this.state.counter + 1})}}>Click me</button>
+				<button onClick={() => this.setState({counter: this.state.counter + 1})}>Click me</button>
 				<h1>Counter is {this.state.counter} </h1>
 			</div>
 		);
 	}
 }
 
-export default App
+export default App;
